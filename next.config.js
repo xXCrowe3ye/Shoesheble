@@ -1,14 +1,17 @@
 const withPWA = require("next-pwa")({
 
-  dest : 'public'
+  dest : 'public',
+  disable: process.env.NODE_ENV === "development",
+  register: true,
+  runtimeCaching,
+
+
+
 });
 const runtimeCaching = require('next-pwa/cache')
 
 module.exports = withPWA({
-  pwa: {
-    disable: process.env.NODE_ENV === "development",
-    runtimeCaching,
-  },
+  
   images: {
     domains: ["fakestoreapi.com","m.media-amazon.com","static.nike.com"],
   },
