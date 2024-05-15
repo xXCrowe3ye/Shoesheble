@@ -18,15 +18,14 @@ function Banner() {
           <Fade left>
             <div className="text-blue-light font-extrabold">
               <h2 className="lg:text-6xl sm:text-5xl xxs:text-4xl text-3xl leading-snug">
-                Stay Home
+                Relax at Home.
               </h2>
               <h1 className="lg:text-7xl sm:text-6xl xxs:text-5xl text-4xl leading-snug sm:mt-4 xxs:mt-2">
-                Shop Online.
+                Find Your Perfect Pair Online at Shoesheble.
               </h1>
             </div>
             <p className="lg:mt-10  lg:mb-14 sm:mt-8 sm:mb-10 mt-6 mb-8 max-w-md font-medium lg:text-base text-sm">
-              Shop online from a wide range of genuine products whenever you
-              want 24x7.
+              Discover a vast selection of authentic shoes at Shoesheble—shop anytime, 24/7!
             </p>
             <button
               className="button lg:px-10 lg:py-2 px-8  xl:text-xl lg:text-lg text-base flex items-center justify-center"

@@ -14,6 +14,8 @@
 //     stripe_public_key: process.env.STRIPE_PUBLIC_KEY,
 //   },
 // });
+
+
 const runtimeCaching = require('next-pwa/cache');
 const withPWA = require("next-pwa");
 
