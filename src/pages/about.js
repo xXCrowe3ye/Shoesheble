@@ -46,6 +46,14 @@ function About() {
                       <Link href="https://www.linkedin.com/in/hanz-angelo-bernabe-89a858266/">
                         Hanz Angelo Bernabe
                       </Link>
+                      along with 
+                      <Link href="https://www.linkedin.com/in/hanz-angelo-bernabe-89a858266/">
+                        John Risen Bodomo
+                      </Link>
+                      , and
+                      <Link href="https://www.linkedin.com/in/hanz-angelo-bernabe-89a858266/">
+                        Rommar Bitoon
+                      </Link>
                     </span>
                     to enhance and showcase his development skills.
                   </p>
