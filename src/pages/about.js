@@ -46,7 +46,7 @@ function About() {
                       <Link href="https://www.linkedin.com/in/hanz-angelo-bernabe-89a858266/">
                         Hanz Angelo Bernabe
                       </Link>
-                      along with 
+                       <p> along with </p>
                       <Link href="https://www.linkedin.com/in/hanz-angelo-bernabe-89a858266/">
                         John Risen Bodomo
                       </Link>
@@ -55,7 +55,7 @@ function About() {
                         Rommar Bitoon
                       </Link>
                     </span>
-                    to enhance and showcase his development skills.
+                    to enhance and showcase their development skills.
                   </p>
 
                 </Fade>
