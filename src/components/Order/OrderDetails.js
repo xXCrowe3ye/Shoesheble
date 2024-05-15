@@ -63,7 +63,7 @@ function OrderDetails({ id, admin }) {
             </p>
           </div>
           {order && (
-            <p className="lg:text-xl md:text-lg text-base font-medium whitespace-nowrap  self-end flex-1 text-right text-blue-500">
+            <p className="lg:text-xl md:text-lg text-base font-medium whitespace-nowrap  self-end flex-1 text-right text-yellow-500">
               {order?.items?.length} items
             </p>
           )}
@@ -76,7 +76,7 @@ function OrderDetails({ id, admin }) {
                 order?.order_status?.current?.status !== "cancelled" &&
                 order?.order_status?.current?.status !== "delivered" ? (
                 <select
-                  className="shadow leading-tight focus:outline-none focus:shadow-outline border xs:text-sm text-xs p-2 rounded bg-blue-500 text-white capitalize"
+                  className="shadow leading-tight focus:outline-none focus:shadow-outline border xs:text-sm text-xs p-2 rounded bg-yellow-500 text-white capitalize"
                   value={order?.order_status?.current?.status}
                   disabled={disabled}
                   onChange={updateStatus}
@@ -95,7 +95,7 @@ function OrderDetails({ id, admin }) {
                       ? "text-red-500 border-red-500 bg-red-100"
                       : order?.order_status?.current.status === "delivered"
                         ? "text-green-500 border-green-500 bg-green-100"
-                        : "text-blue-500 border-blue-500 bg-blue-100"
+                        : "text-yellow-500 border-yellow-500 bg-yellow-100"
                     }  rounded-md`}
                 >
                   <h1 className="font-semibold mb-4">Order Status</h1>

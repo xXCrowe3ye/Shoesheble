@@ -28,7 +28,7 @@ function ProductFeed({ products, categories }) {
           <AdjustmentsIcon className="w-6" />
         </div>
         <div
-          className={` py-2 px-6 bg-white text-center rounded hover:bg-yellow-500 hover:text-white transition-all cursor-pointer ease-in-out duration-200 shadow ${categoryActive === "all" ? "bg-blue-light text-white" : ""
+          className={` py-2 px-6 bg-white text-center rounded hover:bg-yellow-500 hover:text-white transition-all cursor-pointer ease-in-out duration-200 shadow ${categoryActive === "all" ? "bg-yellow-light text-white" : ""
             }`}
           onClick={() => activeCategoryHandler("all")}
         >

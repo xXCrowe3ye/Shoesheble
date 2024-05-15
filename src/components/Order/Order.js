@@ -64,7 +64,7 @@ function Order({ _id, id, amount_total, timestamp, items, status, admin }) {
             className={`border border-b-0 xs:text-sm text-xs px-4 py-2 rounded-t-md  ${status === "cancelled"
                 ? "bg-red-500"
                 : status !== "delivered"
-                  ? "bg-blue-500"
+                  ? "bg-yellow-500"
                   : "bg-green-500"
               } text-white inline-block capitalize`}
           >
@@ -118,7 +118,7 @@ function Order({ _id, id, amount_total, timestamp, items, status, admin }) {
                   </p>
                 </div>
               </div>
-              <p className="lg:text-xl md:text-lg sm:text-base text-sm font-medium  whitespace-nowrap  self-end flex-1 text-right text-blue-500">
+              <p className="lg:text-xl md:text-lg sm:text-base text-sm font-medium  whitespace-nowrap  self-end flex-1 text-right text-yellow-500">
                 {items?.length} items
               </p>
             </div>
