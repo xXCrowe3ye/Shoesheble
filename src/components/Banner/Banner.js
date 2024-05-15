@@ -16,7 +16,7 @@ function Banner() {
       <div className="flex flex-col md:flex-row  md:justify-between md:items-center w-full max-w-screen-xl mx-auto h-full  bg-white overflow-hidden md:gap-1 gap-4 p-0.5">
         <div className="max-w-lg">
           <Fade left>
-            <div className="text-yellow-700 font-extrabold">
+            <div className="text-yellow-light font-extrabold">
               <h2 className="lg:text-6xl sm:text-5xl xxs:text-4xl text-3xl leading-snug">
                 Relax at Home.
               </h2>
