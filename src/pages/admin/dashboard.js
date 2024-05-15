@@ -28,7 +28,7 @@ function Dashboard() {
             <h1 className="sm:text-2xl text-xl  font-semibold border-b-2 border-gray-200 pb-4 text-gray-700">
               Dashboard
             </h1>
-            <div className="flex gap-4 sm:gap-6 lg:gap-8  text-blue-light font-medium flex-wrap sm:text-base text-sm">
+            <div className="flex gap-4 sm:gap-6 lg:gap-8  text-yellow-500 font-medium flex-wrap sm:text-base text-sm">
               <Link href="/admin/products">
                 <div className="dashboard-link flex items-center gap-1">
                   <ArchiveIcon className="w-4" />
@@ -60,7 +60,7 @@ function Dashboard() {
               </h4>
             </div>
             <div>
-              <h2 className="font-medium text-lg  my-2 text-blue-light">
+              <h2 className="font-medium text-lg  my-2 text-yellow-500">
                 {orders ? (
                   <>
                     <span className="font-semibold text-xl mr-2">

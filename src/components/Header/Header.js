@@ -77,7 +77,7 @@ function Header() {
           onClick={() => router.push("/cart")}
         >
           <ShoppingCartIcon className="xl:w-10 lg:w-9 w-8 link" />
-          <div className="absolute -top-2 -right-1 rounded-full text-white bg-blue-light p-1 flex items-center justify-center text-xs font-extrabold">
+          <div className="absolute -top-2 -right-1 rounded-full text-white bg-yellow-500 p-1 flex items-center justify-center text-xs font-extrabold">
             {items?.length}
           </div>
         </div>

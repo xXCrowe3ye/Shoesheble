@@ -41,7 +41,7 @@ function ProductInfo({
     >
       <div className="space-y-2">
         <div className="font-semibold text-base capitalize">{title}</div>
-        <div className="text-blue-light capitalize">{category}</div>
+        <div className="text-yellow-500 capitalize">{category}</div>
         <p className="text-gray-500 lg:text-sm text-xs">{description}</p>
         <div>
           <p className="font-semibold">

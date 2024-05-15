@@ -37,7 +37,7 @@ function Profile() {
                 </span>
                 {session?.user?.email}
               </p>
-              <p className="font-medium lg:text-xl md:text-lg text-base  pt-8 text-blue-light">
+              <p className="font-medium lg:text-xl md:text-lg text-base  pt-8 text-yellow-500">
                 "Whoever said money can't buy happiness didn't know where to
                 shop".
               </p>

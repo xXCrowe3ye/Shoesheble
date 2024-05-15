@@ -28,7 +28,7 @@ function ProductFeed({ products, categories }) {
           <AdjustmentsIcon className="w-6" />
         </div>
         <div
-          className={` py-2 px-6 bg-white text-center rounded hover:bg-blue-light hover:text-white transition-all cursor-pointer ease-in-out duration-200 shadow ${categoryActive === "all" ? "bg-blue-light text-white" : ""
+          className={` py-2 px-6 bg-white text-center rounded hover:bg-yellow-500 hover:text-white transition-all cursor-pointer ease-in-out duration-200 shadow ${categoryActive === "all" ? "bg-blue-light text-white" : ""
             }`}
           onClick={() => activeCategoryHandler("all")}
         >
@@ -37,8 +37,8 @@ function ProductFeed({ products, categories }) {
         {categories?.map((category, i) => (
           <div
             key={`category-${i}`}
-            className={`py-2 px-6 bg-white text-center whitespace-nowrap rounded hover:bg-blue-light hover:text-white transition-all cursor-pointer ease-in-out duration-200 shadow ${categoryActive === category?.name
-                ? "bg-blue-light text-white"
+            className={`py-2 px-6 bg-white text-center whitespace-nowrap rounded hover:bg-yellow-500 hover:text-white transition-all cursor-pointer ease-in-out duration-200 shadow ${categoryActive === category?.name
+                ? "bg-yellow-500 text-white"
                 : ""
               }`}
             onClick={() => activeCategoryHandler(category?.name)}

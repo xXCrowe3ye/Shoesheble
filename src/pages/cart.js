@@ -59,7 +59,7 @@ function Cart() {
                   Shopping Cart
                 </h1>
                 <div className="flex justify-between items-center py-6">
-                  <span className="font-medium text-lg text-blue-light">
+                  <span className="font-medium text-lg text-yellow-500">
                     Items
                     <span className="font-semibold text-xl ml-2">
                       {items?.length}

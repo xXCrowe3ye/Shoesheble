@@ -65,7 +65,7 @@ function ProductDetails({ _id, title, price, description, category, image }) {
                 <h3 className="font-bold xl:text-4xl  lg:text-3xl text-2xl mb-2 capitalize">
                   {title}
                 </h3>
-                <p className="text-blue-light capitalize mb-4 font-medium">
+                <p className="text-yellow-500 capitalize mb-4 font-medium">
                   {category}
                 </p>
                 <p className="text-justify text-sm lg:text-base my-6">

@@ -15,7 +15,7 @@ function Admin() {
         <title>Shoesheble | Admin Panel</title>
       </Head>
       <div className="heightFixAdmin px-6 flex items-center justify-center">
-        <div className="max-w-screen-xs mx-auto lg:text-lg xs:text-base text-sm text-center font-medium text-blue-light">
+        <div className="max-w-screen-xs mx-auto lg:text-lg xs:text-base text-sm text-center font-medium text-yellow-500">
           Welcome to Admin Panel
           <br />
           Wait while redirecting to Dashboard

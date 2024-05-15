@@ -50,7 +50,7 @@ function SideBarMenu({ closeSideBar }) {
               onClick={() => sideBarClickHandler("/profile")}
             />
           ) : (
-            <span className="link text-blue-light text-lg" onClick={signIn}>
+            <span className="link text-yellow-500 text-lg" onClick={signIn}>
               Login/Signup
             </span>
           )

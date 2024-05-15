@@ -29,20 +29,20 @@ function About() {
                 <Fade bottom>
                   <p>
                     This a E-commerce website built using
-                    <span className="link text-blue-light underline mx-1">
+                    <span className="link text-yellow-500 underline mx-1">
                       <Link href="https://nextjs.org/"> Next.js,</Link>
                     </span>
-                    <span className="link text-blue-light underline mx-1">
+                    <span className="link text-yellow-500 underline mx-1">
                       <Link href="https://redux-toolkit.js.org/"> Redux,</Link>
                     </span>
-                    <span className="link text-blue-light underline mx-1">
+                    <span className="link text-yellow-500 underline mx-1">
                       <Link href="https://tailwindcss.com"> Tailwindcss,</Link>
                     </span>
-                    <span className="link text-blue-light underline mx-1">
+                    <span className="link text-yellow-500 underline mx-1">
                       <Link href="https://cloud.mongodb.com/"> MongoDB </Link>
                     </span>
                     by
-                    <span className="font-semibold text-blue-light underline mx-1">
+                    <span className="font-semibold text-yellow-500 underline mx-1">
                       <Link href="https://www.linkedin.com/in/hanz-angelo-bernabe-89a858266/">
                         Hanz Angelo Bernabe
                       </Link>

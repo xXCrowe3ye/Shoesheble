@@ -27,7 +27,7 @@ function Orders() {
           </h1>
           {session ? (
             <>
-              <h2 className="font-medium text-lg  my-2 text-blue-light">
+              <h2 className="font-medium text-lg  my-2 text-yellow-500">
                 {orders ? (
                   <>
                     <span className="font-semibold text-xl mr-2">
@@ -84,7 +84,7 @@ function Orders() {
                 <h2>
                   Please
                   <span
-                    className="link underline text-blue-light mx-2"
+                    className="link underline text-yellow-500 mx-2"
                     onClick={signIn}
                   >
                     login
