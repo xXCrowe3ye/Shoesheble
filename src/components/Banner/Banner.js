@@ -39,7 +39,7 @@ function Banner() {
         <div className="max-w-xs mx-auto  md:mx-0 md:w-1/2 xl:w-auto md:max-w-lg sm:max-w-sm  xl:max-w-none">
           <Fade right>
             <Image
-              src="/img/hero.svg"
+              src="/img/hero.png"
               alt=""
               width={600}
               height={600}
