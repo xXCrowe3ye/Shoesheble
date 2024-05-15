@@ -11,10 +11,10 @@
 /* Custom tailwind class */
 @layer components {
   .link {
-    @apply cursor-pointer  hover:text-blue-light active:text-blue-light;
+    @apply cursor-pointer  hover:text-yellow-500 active:text-yellow-500;
   }
   .button {
-    @apply cursor-pointer rounded text-center p-2 text-sm   text-white  bg-gradient-to-b from-yellow-500 to-yellow-800  border border-blue-light  focus:outline-none focus:ring-2 focus:ring-blue-dark active:from-blue-dark;
+    @apply cursor-pointer rounded text-center p-2 text-sm   text-white  bg-gradient-to-b from-yellow-500 to-yellow-800  border border-yellow-500  focus:outline-none focus:ring-2 focus:ring-blue-dark active:from-blue-dark;
   }
   .button-green {
     @apply cursor-pointer rounded text-center p-2 text-sm  text-white  bg-gradient-to-b from-green-500 to-green-800 border-green-500  focus:outline-none focus:ring-2 focus:ring-green-500 active:from-green-800;
@@ -26,7 +26,7 @@
     @apply w-full cursor-pointer hover:bg-gray-100 py-2 px-3;
   }
   .dashboard-link {
-    @apply link rounded border px-4 py-1 hover:bg-blue-light hover:text-white transition-all duration-200 text-sm;
+    @apply link rounded border px-4 py-1 hover:bg-yellow-500 hover:text-white transition-all duration-200 text-sm;
   }
 }
 
