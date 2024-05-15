@@ -14,7 +14,7 @@
     @apply cursor-pointer  hover:text-blue-light active:text-blue-light;
   }
   .button {
-    @apply cursor-pointer rounded text-center p-2 text-sm   text-white  bg-gradient-to-b from-blue-yellow-light to-yellow-dark border border-blue-light  focus:outline-none focus:ring-2 focus:ring-blue-dark active:from-blue-dark;
+    @apply cursor-pointer rounded text-center p-2 text-sm   text-white  bg-gradient-to-b from-blue-yellow-500 to-yellow-800  border border-blue-light  focus:outline-none focus:ring-2 focus:ring-blue-dark active:from-blue-dark;
   }
   .button-green {
     @apply cursor-pointer rounded text-center p-2 text-sm  text-white  bg-gradient-to-b from-green-500 to-green-800 border-green-500  focus:outline-none focus:ring-2 focus:ring-green-500 active:from-green-800;
